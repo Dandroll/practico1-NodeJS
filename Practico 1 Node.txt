@@ -1,0 +1,37 @@
+﻿First Node App
+
+1:04
+1:05
+1. Create a method to get all the files inside a given path
+
+1:38
+1:41
+
+fs.readdir('./', (err, files) => {
+    (err) ? console.log(err) : 
+    console.log('async: ', files);
+})
+
+no hay q guardar nada
+
+
+
+
+2. Create a method to print all the files
+obtener el array con el nombre de los archivos, en cualquier formato o si no jason 
+
+1:44
+
+
+
+
+3. Create a method to inverse sort and print the files of a given path
+1:47
+
+
+4. Create a method to get the amount of files starting with one letter
+consol log de la cantidad de archivos q empiecen con una letra en particular q se le pasa por parametro
+
+
+List your Github user here:
+https://docs.google.com/spreadsheets/d/1F3joCgU_EaKDk-aCJl_RSmvY6RIZJa_HugQKX41G1mc/edit#gid=0
